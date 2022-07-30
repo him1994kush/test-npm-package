@@ -23,7 +23,7 @@ function Header() {
   ];
 
   return (
-    <div className="bg-gray-200 h-full py-16">
+    <div className="bg-gray-200 h-full py-16 bg-cover">
       <div className="bg-white rounded shadow-inner grid justify-items-center sm:h-20 py-10 sm:py-0 px-4 mx-auto">
         <div className="w-full flex flex-wrap justify-start lg:justify-center m-auto gap-10">
           {status.map((item, i) => {
