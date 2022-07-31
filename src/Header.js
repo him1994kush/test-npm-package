@@ -20,6 +20,10 @@ function Header() {
       title: "Converted",
       id: 5,
     },
+    {
+      title: "Converted",
+      id: 6,
+    },
   ];
 
   return (
