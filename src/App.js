@@ -140,7 +140,7 @@ function App() {
 
         <div className="flex lg:flex-row flex-col justify-between">
           {/* --------------------left-------------------- */}
-          <div className="w-full mx-auto lg:w-8/12 xl:w-8/12 2xl:w-7/12 mt-6 border border-gray-400 pt-6 bg-white h-auto">
+          <div className="w-full mr-auto lg:w-8/12 xl:w-8/12 2xl:w-7/12 mt-6 border border-gray-400 pt-6 bg-white h-auto">
             <div className="w-full border-3 border-b border-gray-500 pb-4">
               <ul className="flex sm:flex-row flex-col justify-center gap-8 px-4 items-center">
                 {Features.map((item, i) => {
@@ -408,7 +408,7 @@ function App() {
           {/* --------------------left-------------------- */}
 
           {/* ------------------------right------------------------ */}
-          <div className="sm:w-4/12 border border-gray-400 mt-6 p-6 bg-white h-auto ">
+          <div className="w-full lg:w-4/12 border border-gray-400 mt-6 p-6 bg-white h-auto ">
             <div className="">
               <button
                 type="button"

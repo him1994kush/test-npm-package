@@ -28,14 +28,14 @@ function Header() {
 
   return (
     <div className="bg-gray-200 h-full py-16 bg-cover">
-      <div className="bg-white rounded shadow-inner grid justify-items-center sm:h-20 py-10 sm:py-0 px-4 mx-auto">
-        <div className="w-full flex flex-wrap justify-start lg:justify-center m-auto gap-10">
+      <div className="bg-white rounded shadow-inner grid justify-items-center h-auto py-10  px-4 mx-auto">
+        <div className="max-w-max flex flex-wrap justify-center xl:justify-center m-auto gap-6 lg:gap-x 2xl:gap-10 3xl:gap-x-5">
           {status.map((item, i) => {
             return (
               <div
                 className={`${
                   item.id === 1 && "bg-green-500 text-white"
-                } h-10 w-full sm:w-40 2xl:w-60 cursor-pointer border border-gray-500 flex justify-center items-center font-semibold`}
+                } h-10 w-full sm:w-40 2xl:w-44 4xl:w-52 cursor-pointer border border-gray-500 flex justify-center items-center font-semibold`}
                 key={i}
               >
                 {item.title}
