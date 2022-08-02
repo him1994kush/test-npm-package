@@ -125,7 +125,7 @@ function App() {
   ];
 
   return (
-    <div className="bg-gray-200 h-full py-16">
+    <div className="bg-gray-200 h-full pb-16 sm:pt-5">
       <div className="w-11/12 2xl:w-9/12 mx-auto">
         <Header />
         <div className="relative">

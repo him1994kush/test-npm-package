@@ -27,7 +27,7 @@ function Header() {
   ];
 
   return (
-    <div className="bg-gray-200 h-full py-16 bg-cover">
+    <div className="bg-gray-200 h-full pb-16 sm:py-16 bg-cover">
       <div className="bg-white rounded shadow-inner grid justify-items-center h-auto py-10  px-4 mx-auto">
         <div className="max-w-max flex flex-wrap justify-center xl:justify-center m-auto gap-6 lg:gap-x 2xl:gap-10 3xl:gap-x-5">
           {status.map((item, i) => {
